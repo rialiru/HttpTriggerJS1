@@ -22,7 +22,7 @@ module.exports = function(context, event) {
     context.res = {
         // status: 200, /* Defaults to 200 */
         body: {
-            text: "Hello " + text
+            text: "hello " + text
         }
     };
     context.bindings.outputDocument = {text};
